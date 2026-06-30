@@ -1,0 +1,83 @@
+# =========================
+# IntelliJ IDEA
+# =========================
+.idea/
+*.iml
+*.iws
+out/
+
+# =========================
+# Eclipse
+# =========================
+.classpath
+.project
+.settings/
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# Maven
+# =========================
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+
+# Maven Wrapper
+.mvn/wrapper/maven-wrapper.jar
+
+# =========================
+# Java
+# =========================
+*.class
+*.log
+*.ctxt
+*.jar
+*.war
+*.ear
+
+# Keep source jars if desired
+!gradle-wrapper.jar
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# Spring Boot
+# =========================
+application-local.yml
+application-dev.yml
+application-prod.yml
+
+# Environment files
+.env
+.env.*
+
+# =========================
+# Generated protobuf files
+# (already inside target/, but kept for clarity)
+# =========================
+**/generated-sources/
+**/generated-test-sources/
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.swp
+*.bak
