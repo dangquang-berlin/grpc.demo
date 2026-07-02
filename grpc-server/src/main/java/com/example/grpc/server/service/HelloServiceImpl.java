@@ -1,8 +1,8 @@
 package com.example.grpc.server.service;
 
+import com.example.grpc.HelloClientToHelloServerGrpc;
 import com.example.grpc.HelloReply;
 import com.example.grpc.HelloRequest;
-import com.example.grpc.HelloServiceGrpc;
 import io.grpc.stub.StreamObserver;
 import lombok.extern.slf4j.Slf4j;
 import net.devh.boot.grpc.server.service.GrpcService;
@@ -14,7 +14,7 @@ import net.devh.boot.grpc.server.service.GrpcService;
 
 @Slf4j
 @GrpcService
-public class HelloServiceImpl extends HelloServiceGrpc.HelloServiceImplBase {
+public class HelloServiceImpl extends HelloClientToHelloServerGrpc.HelloClientToHelloServerImplBase {
 
     @Override
     public void sayHello(
